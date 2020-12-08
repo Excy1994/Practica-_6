@@ -23,3 +23,72 @@
 <img src="medio\6.PNG/">
 
 ##  A continuación, se le presenta la estructura del activity, su trabajo será diseñar en base a lo mostrado, es posible que no obtenga el mismo diseño solicitado, pero se le recomienda explorar al momento de crear, es libre de diseñar a su manera, pero cuidando la estructura otorgada.
+
+<img src="medio\7.PNG/">
+<img src="medio\6.PNG/">
+
+## o Establezca la propiedad visibility a invisible a los TextView del activity_main, estos serán activados en el momento en que la segunda activity le mande un resultado, en primera instancia están ocultos.
+
+<img src="medio\8.PNG/">
+<img src="medio\9.PNG/">
+
+## o Establezca el evento onClick al botón del activity_main que tiene el identificador btEnviar, puede usar el siguiente código XML. Puede usar la corrección automática para generar el código correspondiente a este manejador de evento.
+
+<img src="medio\11.PNG/">
+<img src="medio\10.PNG/">
+
+## En el caso de que no pueda generar el método a través de las correcciones automáticas, tiene la siguiente estructura.
+
+<img src="medio\12.PNG/">
+
+##  Agregando un Intent al MainActivity.kt
+
+## o Abra el fichero MainActivity.kt
+
+## o Agregue un object companion dentro de la clase MainActivity, no dentro de algún método, este servirá para simular un objeto estático que no cambia el valor de sus propiedades en toda la aplicación. El valor EXTRA_MESSAGE nos servirá para la clave del extra en el intent.
+
+<img src="medio\13.PNG/">
+
+## o Agregue el siguiente código en el método lanzarSegundaActivity, relacionado a la creación de un intent.
+
+<img src="medio\14.PNG/">
+
+### Al momento de crear esta sentencia  en la  parte de arriba se crea un import que es para declarar el Intent y no tener ningún error.
+
+<img src="medio\15.PNG/">
+
+## o Muestre el resultado en el momento en que la segunda activity fue lanzada.
+
+## o Regrese a la activity principal e indique que instancias del ciclo de vida del activity se han ejecutado.
+
+## Tarea 1.3: Compartiendo datos de Activity principal a la segunda.
+
+## o Agregue el siguiente código para enviar datos activities, debe reemplazar el código anterior del método lanzarSegundaActivity. Muetre los resultados.
+
+<img src="medio\16.PNG/">
+
+##  Modificando la segunda activity para obtener los extras.
+
+## o Abra el fichero Segunda.kt para agregar código al método onCreate().
+
+<img src="medio\17.PNG/">
+
+## o Obtenga el intent que activó esta activity.
+
+<img src="medio\18.PNG/">
+
+## o Obtenga la cadena que contiene el mensaje de los extras de Intent usando el valor del objeto creado en la activity principal y obtenerlo usando la clave MainActivity.EXTRA_MESSAGE: 
+
+<img src="medio\19.PNG/">
+
+## o Use findViewById() para obtener la referencia del TextView para el mensaje del layout. 
+
+<img src="medio\20.PNG/">
+
+## o Establezca el texto del TextView con la cadena obtenida del extra del intent.
+
+<img src="medio\21.PNG/">
+
+## o Ejecute la aplicación. Cuando escriba el mensaje en el MainActivity, haga clic en el botón Enviar, se lanza la SegundaActivity y se muestra el mensaje.
+
+## o Muestre resultados a través de capturas de pantalla y comentarios
