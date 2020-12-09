@@ -91,4 +91,25 @@
 
 ## o Ejecute la aplicación. Cuando escriba el mensaje en el MainActivity, haga clic en el botón Enviar, se lanza la SegundaActivity y se muestra el mensaje.
 
-## o Muestre resultados a través de capturas de pantalla y comentarios
+## o Muestre resultados a través de capturas de pantalla y comentarios.
+
+## Tarea 1.4 Devolver datos al activity principal.
+
+## Siga los siguientes pasos:
+
+## o Abra el fichero activity_segunda.xml y verifique que dispone de la estructura indicada al principio de estas tareas con sus identificadores correspondientes.
+
+## o Establezca el evento onClick al botón con identificador btRes, si lo hace en el XML lo puede realizar de esta manera:
+
+## o Paso opcional por si no hizo el anterior: Si desea establecer el manejador del evento Clic a través de código Kotlin en el método onCrea().
+
+## o Solamente queda crear el método devolverRespuesta(), el cual puede agregarlo después del cierre de llave del método onCreate()
+
+##  Crear respuesta del intent en la segunda Activity.
+
+## o Abre Segunda.kt por si aún no lo está.
+
+## o Agrega un companion object para obtener una sola instancia de objeto sin necesidad de crear una nueva, esto se debe agregar después de la apertura de la llave de la clase Segunda, al inicio para no generar confusiones.
+
+## o Agregue el código del método devolverRespuesta() creado en la tarea anterior.
+
