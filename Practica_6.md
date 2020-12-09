@@ -135,3 +135,10 @@
 
 ## o Borre o comente la línea de startActivity(intent) a startActivityForResult(intent, TEXT_REQUEST), recuerde que TEXT_REQUEST está dentro del companion object.
 
+
+<img src="medio\28.PNG/">
+
+## Pasaremos a anular el método onActivityResult(), vamos a Code > Override methods o simplemente CTRL + O, busque el método onActivityResult()
+
+
+<img src="medio\29.PNG/">
