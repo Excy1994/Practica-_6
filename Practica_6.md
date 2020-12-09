@@ -93,6 +93,11 @@
 
 ## o Muestre resultados a través de capturas de pantalla y comentarios.
 
+<img src="medio\23.jpeg/">
+<img src="medio\22.jpeg/">
+
+
+
 ## Tarea 1.4 Devolver datos al activity principal.
 
 ## Siga los siguientes pasos:
@@ -101,9 +106,14 @@
 
 ## o Establezca el evento onClick al botón con identificador btRes, si lo hace en el XML lo puede realizar de esta manera:
 
+<img src="medio\24.PNG/">
+
+
 ## o Paso opcional por si no hizo el anterior: Si desea establecer el manejador del evento Clic a través de código Kotlin en el método onCrea().
 
 ## o Solamente queda crear el método devolverRespuesta(), el cual puede agregarlo después del cierre de llave del método onCreate()
+
+<img src="medio\25.PNG/">
 
 ##  Crear respuesta del intent en la segunda Activity.
 
@@ -111,5 +121,17 @@
 
 ## o Agrega un companion object para obtener una sola instancia de objeto sin necesidad de crear una nueva, esto se debe agregar después de la apertura de la llave de la clase Segunda, al inicio para no generar confusiones.
 
+
+<img src="medio\26.PNG/">
+
 ## o Agregue el código del método devolverRespuesta() creado en la tarea anterior.
+
+
+<img src="medio\27.PNG/">
+
+## Tarea 1.5: Obtener la respuesta en el MainActivity y mostrarlo en el TextView.
+
+## o Abra el fichero de MainActivity.kt.
+
+## o Borre o comente la línea de startActivity(intent) a startActivityForResult(intent, TEXT_REQUEST), recuerde que TEXT_REQUEST está dentro del companion object.
 
